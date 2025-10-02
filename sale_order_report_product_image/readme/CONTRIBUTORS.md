@@ -11,3 +11,5 @@
 - [Vauxoo](https://www.vauxoo.com)
   - José Ibarra \<<josei@vauxoo.com>\>
 - `Heliconia Solutions Pvt. Ltd. <https://www.heliconia.io>`_
+- [Komit](https://komit-consulting.com)
+  - Hieu, Vo Minh Bao \<<hieu.vmb@komit-consulting.com>\>
