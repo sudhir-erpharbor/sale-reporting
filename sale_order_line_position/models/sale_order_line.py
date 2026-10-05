@@ -23,6 +23,7 @@ class SaleOrderLine(models.Model):
     def unlink(self):
         sales = self.mapped("order_id")
         res = super().unlink()
+        sales.invalidate_recordset(["order_line"])
         for sale in sales:
             sale.recompute_positions()
         return res
